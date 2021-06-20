@@ -568,3 +568,118 @@ section.apply.about-apply {
 section.what-doing.about-doing {
     margin-top: 150px;
 }
+
+
+/** responsive css**/
+@media only screen and (max-device-width: 600px) {
+   .Hero_Caption h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 78px;
+    color: #28395a;
+}
+form.search-box .input-form {
+    width: 100%;
+}
+form.search-box .input-form {
+    width: 100%;
+    display: block;
+    position: unset;
+	margin-bottom:20px;
+}
+form.search-box .select-form {
+    width: 100%;
+    display: block;
+	margin-bottom:20px;
+}
+form.search-box .search-form {
+    width: 100%;
+}
+section.hero-banner {
+    min-height: 550px;
+    padding-top: 70px;
+}
+section.top_categories {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+p.pera2 {
+    font-size: 30px;
+}
+section.tour_packages {
+    height: 61vh;
+    padding-top: 88px;
+}
+p.pera1 {
+    font-size: 17px;
+}
+section.featured_jobs {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.single_job_items.d-flex {
+    flex-direction: column;
+}
+.job_title {
+    padding-top: 25px;
+}
+.items_link {
+    text-align: center;
+    padding-top: 35px;
+}
+.apply .card {
+    margin-bottom: 30px;
+}
+.what-doing .section-tittle.text-left {
+    right: 0;
+    margin-bottom: 40px;
+}
+section.testimonial_section {
+    padding-bottom: 0px;
+}
+.image_badge {
+    left: 0px;
+    padding: 35px 25px;
+    transform: translateY(-167px);
+}
+.image_badge p.text-center.mb-0 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.image_badge span {
+    font-size: 44px;
+}
+.recent_news {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.blog_details {
+    padding: 19px 8px 17px 18px;
+}
+.home_blog {
+    margin-bottom: 50px;
+}
+.blog_img_c img {
+    transition: all 4s;
+    width: 100%;
+}
+.footer_pera {
+    margin-bottom: 30px;
+    font-size: 19px;
+    padding-right: 32px;
+    line-height: 1.8;
+}
+
+.footer_contct p {
+    color: #868c98;
+    font-size: 19px;
+    line-height: 1.8;
+}
+footer ul {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.sec-inter-row img {
+    margin-bottom: 30px;
+}
+}
